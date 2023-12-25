@@ -11,23 +11,27 @@ export default function Home() {
       <header className="bg-gradient-to-r from-dark-blue via-summer-sky to-pagoda-blue h-3"></header>
       <section className="main-frame-wrapper">
         <div className="container">
-          <div className="sm:py-8 ml-10">
-            <img src="/images/logo-cms.png" className="py-7 logo-image" />
+          <div className=" logo-container">
+            <img src="/images/logo-cms.png" className="logo-image" />
           </div>
 
-          <div className="flex flex-wrap sm:justify-between justify-center ">
-            <div className="pl-1 sm:ml-8 sm:w-2/5">
-              <h1 className="text-white text-2xl sm:text-5xl font-medium mb-4 sm:my-14 sm:pt-12">
+          <div className="flex flex-wrap sm:justify-between justify-center image-content-container">
+            <div
+            // className="  sm:w-2/5"
+            >
+              <h1 className="text-white automate-wrapper text-2xl sm:text-6xl font-medium mb-4 sm:my-11 sm:pt-12">
                 Automate Your <br /> Finance Function
               </h1>
-              <h4 className="text-white text-base sm:text-xl font-medium sm:my-14 sm:pt-4">
+              <h4 className="text-white rework-wrapper text-base sm:text-3xl font-medium sm:my-12 sm:pt-1">
                 WITHOUT Reworking Your ERP
               </h4>
               <button className="bg-blue text-white font-bold py-1 sm:py-2 px-6 rounded my-5">
                 Learn more
               </button>
             </div>
-            <div className="sm:w-2/5 sm:mr-auto mx-auto">
+            <div
+            // className="sm:w-2/5 sm:mr-auto mx-auto"
+            >
               <img src="/images/Frame.png" className="robot-image" />
             </div>
           </div>

@@ -26,13 +26,31 @@
   background-repeat: no-repeat;
   object-fit: cover;
   background-size: 100% 100%;
+  position: relative;
+}
+.logo-container {
+  position: absolute;
+  /* left: 145px;
+  top: 50px; */
+  left: 135px;
+  top: 47px;
+}
+.image-content-container {
+  position: absolute;
+  top: 170px;
+  left: 132px;
+  width: 82%;
 }
 .robot-image {
-  width: 550px;
+  /* width: 550px; */
+  width: 520px;
+
   height: auto;
 }
 .logo-image {
-  width: 200px;
+  /* width: 200px; */
+  /* width: 295px; */
+  width: 320px;
 }
 .kred-automation-container {
   background-image: url("/images/kred-automation-container.png");
@@ -47,7 +65,82 @@
   margin-top: 5px;
   margin-right: 25px;
 }
-@media screen and (max-width: 768px) and (min-width: 520px) {
+@media screen and (max-width: 1200px) and (min-width: 992px) {
+  .logo-image {
+    width: 300px;
+  }
+  .image-content-container {
+    position: absolute;
+    top: 180px;
+    left: 104px;
+    width: 82%;
+  }
+  .automate-wrapper {
+    font-size: 45px !important;
+  }
+  .rework-wrapper {
+    font-size: 28px !important;
+    margin: 31px 0px !important;
+    padding: 22px 0px !important;
+  }
+  .robot-image {
+    width: 420px;
+  }
+  .logo-container {
+    left: 107px;
+  }
+}
+
+@media screen and (max-width: 992px) and (min-width: 768px) {
+  .image-content-container {
+    justify-content: center !important;
+  }
+  .image-content-container {
+    position: absolute;
+    top: 140px;
+    left: 0px;
+    right: 0px;
+    width: 85%;
+  }
+  .automate-wrapper {
+    font-size: 45px !important;
+    padding: 10px 0px !important;
+    margin: 10px 0px !important;
+  }
+  .rework-wrapper {
+    font-size: 28px !important;
+    margin: 10px 0 !important;
+    padding: 10px 0px !important;
+  }
+  .logo-container {
+    top: 30px;
+    left: -35px;
+    width: 82%;
+    display: flex;
+    justify-content: center;
+    /* margin-right: auto; */
+    margin-left: auto;
+  }
+  .logo-image {
+    width: 295px;
+  }
+  .robot-image {
+    width: 450px;
+  }
+}
+
+@media screen and (max-width: 767px) and (min-width: 320px) {
+  .image-content-container {
+    left: 0;
+  }
+  .logo-container {
+    left: -12px;
+    width: 82%;
+    display: flex;
+    justify-content: center;
+  }
+}
+@media screen and (max-width: 767px) and (min-width: 520px) {
   .kred-advantage-container {
     display: flex;
     flex-wrap: wrap;
@@ -56,12 +149,38 @@
   .kred-advantage-container-right {
     width: 100% !important;
   }
-}
-@media screen and (max-width: 640px) and (min-width: 520px) {
   .robot-image {
-    width: 400px;
+    width: 360px;
+  }
+  .main-frame-wrapper {
+    height: 700px;
+  }
+  .automate-wrapper {
+    font-size: 42px !important;
+    padding: 10px 0px !important;
+    margin: 10px 0px !important;
+  }
+  .rework-wrapper {
+    font-size: 26px !important;
+    margin: 10px 0 !important;
+    padding: 10px 0px !important;
+  }
+
+  .image-content-container {
+    justify-content: center !important;
+    top: 140px;
+  }
+  .logo-container {
+    left: -42px;
+    width: 82%;
+    display: flex;
+    justify-content: center;
+  }
+  .logo-image {
+    width: 280px;
   }
 }
+
 @media screen and (max-width: 520px) and (min-width: 320px) {
   .angle-image {
     width: 30px;
@@ -71,9 +190,36 @@
     width: 280px;
   }
   .main-frame-wrapper {
-    height: 500px;
+    height: 600px;
+  }
+  .logo-image {
+    width: 200px;
+  }
+  .image-content-container {
+    top: 140px;
+    width: 98%;
+  }
+  .robot-image {
+    width: 280px;
+  }
+  .logo-container {
+    /* left: -12px; */
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+  .automate-wrapper {
+    font-size: 28px !important;
+    padding: 10px 0px !important;
+    margin: 10px 0px !important;
+  }
+  .rework-wrapper {
+    font-size: 18px !important;
+    margin: 10px 0 !important;
+    padding: 10px 0px !important;
   }
 }
+
 /* body {
   color: rgb(var(--foreground-rgb));
   background: linear-gradient(
