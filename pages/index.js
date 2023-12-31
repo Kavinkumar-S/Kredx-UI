@@ -2,7 +2,7 @@ import Image from "next/image";
 import { Inter } from "next/font/google";
 import Automationcard from "/components/Automationcard";
 import Cmscard from "/components/Cmscard";
-
+import Image from "next/image";
 const inter = Inter({ subsets: ["latin"] });
 
 export default function Home() {
@@ -12,7 +12,7 @@ export default function Home() {
       <section className="main-frame-wrapper">
         <div className="container">
           <div className=" logo-container">
-            <img src="/images/logo-cms.png" className="logo-image" />
+            <Image src="/images/logo-cms.png" className="logo-image" />
           </div>
 
           <div className="flex flex-wrap sm:justify-between justify-center image-content-container">
@@ -32,7 +32,7 @@ export default function Home() {
             <div
             // className="sm:w-2/5 sm:mr-auto mx-auto"
             >
-              <img src="/images/Frame.png" className="robot-image" />
+              <Image src="/images/Frame.png" className="robot-image" />
             </div>
           </div>
         </div>
@@ -41,7 +41,7 @@ export default function Home() {
         <div className="container">
           <div className="flex flex-wrap sm:p-8 w-full justify-evenly items-center sm:w-8/12 mx-auto ">
             <div className="">
-              <img src="/images/left-angle.png" className="angle-image" />
+              <Image src="/images/left-angle.png" className="angle-image" />
             </div>
             <p className="text-base text-center">
               Only KredX's AP Solution lets you automate and streamline your
@@ -50,7 +50,7 @@ export default function Home() {
               because we support all native functionality for 40+ ERPs
             </p>
             <div className="">
-              <img src="/images/right-angle.png" className="angle-image" />
+              <Image src="/images/right-angle.png" className="angle-image" />
             </div>
           </div>
         </div>
@@ -68,15 +68,15 @@ export default function Home() {
         <div className="container">
           <div className="flex justify-evenly flex-wrap">
             <div className="sm:w-3/12 max-w-full">
-              <img src="/images/footer-logo.png" />
+              <Image src="/images/footer-logo.png" />
             </div>
 
             <div className="flex justify-end sm:w-9/12 max-w-full flex-wrap sm:mt-0 mt-2">
-              <img src="/images/instagram.png" />
-              <img src="/images/linkedin.png" className="ml-4" />
-              <img src="/images/facebook.png" className="ml-4" />
-              <img src="/images/twitter.png" className="ml-4" />
-              <img src="/images/youtube.png" className="ml-4" />
+              <Image src="/images/instagram.png" />
+              <Image src="/images/linkedin.png" className="ml-4" />
+              <Image src="/images/facebook.png" className="ml-4" />
+              <Image src="/images/twitter.png" className="ml-4" />
+              <Image src="/images/youtube.png" className="ml-4" />
             </div>
           </div>
         </div>
