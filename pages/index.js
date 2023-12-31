@@ -2,7 +2,6 @@ import Image from "next/image";
 import { Inter } from "next/font/google";
 import Automationcard from "/components/Automationcard";
 import Cmscard from "/components/Cmscard";
-import Image from "next/image";
 const inter = Inter({ subsets: ["latin"] });
 
 export default function Home() {
